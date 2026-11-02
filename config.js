@@ -25,5 +25,5 @@ window.MEMORIAL = {
     entry_name    : "entry.862015924",
     entry_message : "entry.489805740",
     // responses sheet published as csv (File > Share > Publish to web > CSV)
-    sheet_csv     : "" }
+    sheet_csv     : "https://docs.google.com/spreadsheets/d/e/2PACX-1vQnzLIcl7ZzfLo97KpOIfoC7UISTpBcH88XDl7eCLCHKDpts0dRnbrzeRTNMBAnlSVUOZl61GQEjzFp/pub?gid=1931163246&single=true&output=csv" }
 };
