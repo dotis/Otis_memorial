@@ -3,7 +3,7 @@ window.MEMORIAL = {
   // who is being remembered
   names    : "Brooks & Carolyn Otis",
   dates    : "Brooks  May 3, 1938 – May 9, 2026  ·  Carolyn  August 28, 1940 – March 25, 2026",
-  epigraph : "With love, and in celebration of two lives full of music, gardens, family and friends.",
+  epigraph : "With love, and in celebration of two lives full of music, gardens, crafts, family and friends.",
 
   // large photo at the top
   hero: { src: "img/historical/full/20.jpg", alt: "Brooks and Carolyn wearing leis in front of a waterfall" },

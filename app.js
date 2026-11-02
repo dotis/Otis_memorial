@@ -25,7 +25,12 @@
   const lb = $("lightbox"), lb_img = $("lb-img");
 
   fetch(M.photos_json).then((r) => r.json()).then((list) => {
-    photos = list;
+    photos = list.slice();
+    // fresh order on every visit: Fisher-Yates shuffle
+    for (let i = photos.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [photos[i], photos[j]] = [photos[j], photos[i]];
+    }
     const grid = $("grid");
     photos.forEach((p, i) => {
       const li = document.createElement("li");
