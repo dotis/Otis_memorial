@@ -3,7 +3,7 @@
 A simple static site for GitHub Pages: three links (historical photos, memorial photos, video), a photo
 viewer with slideshow, and a guestbook.
 
-- Live site: https://bbest.github.io/memorial/
+- Live site: https://dotis.github.io/Otis_memorial/
 - Edit names, dates, links and guestbook settings in [`config.js`](config.js).
 
 ## Photos
